@@ -20,4 +20,4 @@
 
   3. `npm start` for running local server
 
-  4. Go to localhost:8080 in browser
+  4. Go to <a href="http://localhost:8080">http://localhost:8080</a> in browser
