@@ -12,6 +12,7 @@
 
 -  Express
 - - For running local server and compiling Pug templates
+- - routing
 
 ## Installation
   1. Clone repository or copy project source code 
