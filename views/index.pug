@@ -1,0 +1,44 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='utf-8')
+    meta(http-equiv='X-UA-Compatible', content='IE=edge')
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')
+    meta(name='description', content='')
+    meta(name='author', content='')
+    link(rel='icon', href='favicon.ico')
+    title= title
+    link(href='/bootstrap-3.3.7-dist/css/bootstrap.min.css', rel='stylesheet')
+    link(href='/styles/cover.css', rel='stylesheet')
+  body
+
+    .site-wrapper
+
+      .site-wrapper-inner
+
+        .cover-container
+
+          .masthead.clearfix
+            .inner
+              h3.masthead-brand #{title}
+              nav
+                ul.nav.masthead-nav
+                  li(class=nav==='home' && 'active')
+                    a(href='/') Home
+                  li(class=nav==='table' && 'active') 
+                    a(href='/table') Table
+
+          .inner.cover
+            h1.cover-heading Cover your page.
+            p.lead Cover is a one-page template for building simple and beautiful home pages. Download, edit the text, and add your own fullscreen background photo to make it your own./p 
+            p.lead
+              a.btn.btn-lg.btn-default(href='#') Learn more
+
+          .mastfoot
+            .inner
+              p Cover template for 
+                a(href='http://getbootstrap.comBootstrap/a') Bootstrap
+                span , by
+                a(href='https://twitter.com/mdo@mdo/a') @omdo
+
+  include partials/scripts

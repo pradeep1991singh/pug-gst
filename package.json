@@ -1,0 +1,27 @@
+{
+  "name": "pug-gst",
+  "version": "1.0.0",
+  "description": "pug getting started project",
+  "main": "index.pug",
+  "scripts": {
+    "start": "node app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pradeep1991singh/pug-gst.git"
+  },
+  "keywords": [
+    "pug"
+  ],
+  "author": "pradeep1991singh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pradeep1991singh/pug-gst/issues"
+  },
+  "homepage": "https://github.com/pradeep1991singh/pug-gst#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.4",
+    "pug": "^2.0.0-rc.3"
+  }
+}
